@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Chakra+Petch:wght@300&family=Kdam+Thmor+Pro&family=Poppins:wght@100&family=Roboto+Slab:wght@500&display=swap');
+*{
+    font-family: 'Finlandica', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    background: rgb(54, 128, 255);
+    border: none;
+    padding: 4px;
+}
+
+.card-title{
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Bungee', cursive;
+    text-align: center;
+}
+
+.card-body{    
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body .socialMedia{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.card-body .socialMedia ul{
+    display: flex;    
+    margin-left: -20px;
+}
+
+.card-body .socialMedia ul li {
+    list-style: none;
+    margin: 0 10px;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.card-body .socialMedia ul li a{    
+    font-size: 20px;
+    transition: all 0.5s ease;
+    text-align: center;
+}
+
+.card-body .socialMedia ul li a i{
+    margin-top: 5px;
+}
+
+.card-body .socialMedia ul li a .bxl-whatsapp-square{
+    color: rgba(34, 208, 46, 0.85);
+}
+
+.card-body .socialMedia ul li a .bxl-twitter{
+    color: rgb(54, 128, 255);
+}
+
+.card-body .socialMedia ul li a .bxl-instagram-alt{
+    color: rgb(206, 84, 19);
+}
+
+.card-body .socialMedia ul li a .bxl-youtube{
+    color: rgb(241, 5, 5);
+}
+
+.card-body label{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.card-body input {
+    /* color: #fff; */
+    font-size: 12px;
+}
+
+#login{
+    margin-top: 20px;
+    font-size: 12px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: #fff; 
+    text-align: center;  
+}
+
+
+/* ===== MEDIA QUERIES (MEDIUM DEVICES) ====== */
+@media screen and (max-width: 1024px) {}
+
+/* ===== MEDIA QUERIES (SMALL DEVICES) ====== */
+@media screen and (max-width: 600px) {
+    .card-body{
+        margin-top: 20px;
+    }
+    .headSosmed{
+        text-align: center;
+    }
+    
+    .socialMedia{
+        margin-top: 15px;
+        text-align: center;
+    }
+
+
+}

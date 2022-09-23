@@ -1,0 +1,20 @@
+.cardHeader{
+    background: #3c5cfa;
+    border: none;
+}
+
+.alert-warning{
+    font-size: 15px;
+}
+
+/* ===== MEDIA QUERIES (SMALL DEVICES) ====== */
+@media screen and (max-width: 600px) {
+    .titleHeader{
+        font-size: 14px;
+    }
+
+    .alert-warning {
+        font-size: 11px;
+    }
+    
+}
